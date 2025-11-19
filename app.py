@@ -42,8 +42,8 @@ for line in raw_text.splitlines():
 # ======================================
 
 st.set_page_config(page_title="Chatbot Du Lịch Tây Ninh", page_icon="🗺️")
-st.title("🗺️ Chatbot Du Lịch Tây Ninh – OpenRouter Version")
-st.caption("Made by Đăng Khoa 🔰")
+st.title("🗺️ Chatbot Du Lịch Tây Ninh – BETA Version")
+st.caption("Made by Đăng Khoa 🔰 - 1.0")
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
