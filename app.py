@@ -89,8 +89,9 @@ Hãy trả lời tự nhiên, thân thiện, chính xác.
     headers = {
         "Authorization": f"Bearer {OPENROUTER_API_KEY}",
         "Content-Type": "application/json",
-        "HTTP-Referer": "http://localhost",       
-        "X-Title": "Chatbot Tay Ninh"
+        "HTTP-Referer": "https://dulichtn.streamlit.app/",       
+        "X-Title": "Chatbot Tay Ninh",
+        "User-Agent": "Mozilla/5.0"
     }
 
     payload = {
